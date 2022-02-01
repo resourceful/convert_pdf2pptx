@@ -1,7 +1,6 @@
 #!/usr/bin/env python3.10
 import sys, os
 
-from PIL import Image
 from pdf2image import convert_from_path
 from io import BytesIO
 from pptx import Presentation, opc
