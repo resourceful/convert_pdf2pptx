@@ -23,7 +23,7 @@ core.comments = "PPTX generated from PDF"
 
 # Convert PDF to list of images
 print("\nConverting", pdf, "in progress\n(time depends on no. of pages)")
-pages = convert_from_path(pdf, 300, fmt='ppm', thread_count=8)
+pages = convert_from_path(pdf, 150, fmt='ppm', thread_count=8)
 print("Conversion complete.\n")
 
 #Append slides
