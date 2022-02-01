@@ -10,7 +10,6 @@ Use it like shell script
 * poppler
 
 # Dependencies
-* PIL
 * pdf2image
 * python-pptx
 
