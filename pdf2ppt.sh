@@ -3,7 +3,7 @@ import sys, os
 
 from pdf2image import convert_from_path
 from io import BytesIO
-from pptx import Presentation, opc
+from pptx import Presentation
 
 if (len(sys.argv) != 2 ):
 	print("usage: ", sys.argv[0], "PDF-FILE-NAME")
