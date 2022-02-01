@@ -13,3 +13,6 @@ Use it like shell script
 * PIL
 * pdf2image
 * python-pptx
+
+# Notes
+Check your python version before use (currently python3.10 is in use)
